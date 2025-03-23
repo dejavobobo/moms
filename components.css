@@ -1,0 +1,29 @@
+.memory-card {
+    transition: transform 0.3s ease;
+}
+
+.memory-card:hover {
+    transform: translateY(-5px);
+}
+
+.gallery-image {
+    transition: opacity 0.3s ease;
+}
+
+.gallery-image:hover {
+    opacity: 0.9;
+}
+
+.guestbook-entry {
+    border-left: 4px solid #718096;
+}
+
+.condolence-form input,
+.condolence-form textarea {
+    transition: border-color 0.3s ease;
+}
+
+.condolence-form input:focus,
+.condolence-form textarea:focus {
+    border-color: #4a5568;
+}
